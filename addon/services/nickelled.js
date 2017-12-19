@@ -6,6 +6,9 @@ export default Ember.Service.extend({
     this.set('userId', userId);
     window.NickelledMissionDockSettings['userId'] = userId;
   },
+  init() {
+    window.NickelledMissionDock._init();
+  },
   show() {
     if(this.get('userId')) {
       window.NickelledMissionDock.show();
