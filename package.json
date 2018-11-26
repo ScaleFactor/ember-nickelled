@@ -1,6 +1,6 @@
 {
-  "name": "ember-nickelled",
-  "version": "0.0.0",
+  "name": "@scalefactor/ember-nickelled",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
